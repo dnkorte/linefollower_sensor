@@ -22,7 +22,8 @@ Sensor Library and hardware info
 
 Processor Used 
 
-The software in the .ino file runs on an Adafruit ItsyBitsy M0 Express board, though it could run on almost anything that can be coded in Arduino IDE that has sufficient number of pins and an i2c interface (the PCB described here assumes the ItsyBitsy form factor)
+The software in the .ino file runs on an Adafruit ItsyBitsy M0 Express board, though it could run on almost anything that can be coded in Arduino IDE that has sufficient number of pins and an i2c interface (the PCB described here assumes the ItsyBitsy form factor).
+  With minor modifications it could send its output to a serial channel or to a DAC if preferred instead of i2c.
 
 * https://www.adafruit.com/product/3727
 
